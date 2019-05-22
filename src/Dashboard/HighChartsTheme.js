@@ -1,3 +1,4 @@
+import { lightTheme } from "../Shared/Styles";
 export default {
   colors: [
     "#DDDF0D",
@@ -13,11 +14,11 @@ export default {
     "#aaeeee"
   ],
   chart: {
-    backgroundColor: "#061a44",
+    backgroundColor: lightTheme ? "white" : "#061a44",
     borderColor: "#000000",
     borderWidth: 0,
     className: "dark-container",
-    plotBackgroundColor: "#061a44",
+    plotBackgroundColor: lightTheme ? "white" : "#061a44",
     plotBorderColor: "#CCCCCC",
     plotBorderWidth: 0
   },
@@ -87,7 +88,7 @@ export default {
   plotOptions: {
     line: {
       dataLabels: {
-        color: "#CCC"
+        color: lightTheme ? "blue" : "#CCC"
       },
       marker: {
         lineColor: "#333"
