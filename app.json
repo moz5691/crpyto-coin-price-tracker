@@ -1,0 +1,10 @@
+{
+  "name": "crypto coin price tracker",
+  "description": "Crypto coin price tracker",
+  "keywords": ["react", "reactjs", "crypto"],
+  "repository": "https://github.com/moz5691/crpyto-coin-price-tracker",
+  "success_url": "/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
